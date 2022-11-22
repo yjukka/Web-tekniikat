@@ -1,0 +1,16 @@
+i{
+    font-size: 3em;
+}
+
+#menu{
+    display: none;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    left: 15px;
+    top: 55px;
+}
+
+#menu.show{
+    display: inline-block;
+}
