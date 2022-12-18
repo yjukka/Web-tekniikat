@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <script src="script.js" async defer></script>
+
+    </head>
+    <body>
+        <form id="form" class="main">
+            <div id="name" class="name">Nimi</div>
+            <input name="nameInput" type="text" class="nameInput" id="nameInput">
+            <div id="note" class="note">Muistiinpanot</div>
+            <textarea name="noteInput" type="text" id="noteInput" class="noteInput"></textarea> <br>
+            <label for="importantButton">Tärkeä</label>
+            <input name="importantButton"type="checkbox" id="importantButton">
+            <div id="remember" class="remember"></div>
+            <button type="submit" id="submitButton">Lähetä</button>
+            <br>
+            <div id="addNotes" class="hide"></div>
+            <div id="importantNotes" class="hide"></div>
+        </form>
+    </body>
+</html>
